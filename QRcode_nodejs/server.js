@@ -2,9 +2,11 @@ var express = require('express')
 var qrcode = require('qrcode');
 var app = express()
 
-app.get('/:qrcode',(req, res) =>{
-    let inputStr = req.params.qrcode;
+app.get('/qrcode', function(req, res) =>{
+
+    let input = req.params.qrcode;
     qrcode.toDataURL(inputStr, function (err, url) {
+        //res.send(url);
         let data = url.replace(/.*,/,'')
         let img = new Buffer(data,'base64')
         res.writeHead(200,{
