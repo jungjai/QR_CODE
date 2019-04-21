@@ -9,6 +9,8 @@ app.get('/qrcode', function(req, res) =>{
         //res.send(url);
         let data = url.replace(/.*,/,'')
         let img = new Buffer(data,'base64') // base64 : encodeing
+
+        // response header
         res.writeHead(200,{
             'Content-Type' : 'image/png',
             'Content-Length' : img.length
