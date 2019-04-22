@@ -15,17 +15,13 @@
 
 ### 설치하기
 
-- `nodejs` 와 `npm` 을 설치합니다. 설치 방법은 [nodejs.org](https://nodejs.org) 를 참고하세요.
+- `nodejs` 와 `npm` 을 설치합니다. 설치 방법은 [nodejs.org](https://nodejs.org/) 를 참고하세요.
 - Node.js 8 LTS 버전을 설치합니다.
 
 ```
 npm install --save express
-```
-
-```
 npm install --save qrcode
 ```
-
 
 ## 사용된 도구
 
