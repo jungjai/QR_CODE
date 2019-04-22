@@ -1,0 +1,21 @@
+
+<html>
+<body>
+	
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.qrcode.js"></script>
+<script type="text/javascript" src="qrcode.js"></script>
+
+<div id="gcDiv"></div>
+
+<script>
+	jQuery('#gcDiv').qrcode({     // Start QR코드
+		render	: "table",          // table, canvas 형식 2개
+		width : 300,                // 넓이
+		height : 300,               // 높이
+		text	: "jungjai"           // qr코드를 생성할 문자열
+	});
+</script>
+
+</body>
+</html>
