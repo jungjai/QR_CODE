@@ -2,6 +2,17 @@
 
 모든 소스코드는 IntelliJ + Windows10 환경에서 작성되었습니다.
 
+## 사용법
+
+```
+URL QRcode Generate
+Input URL : 
+```
+
+- Input URL 우측에 있는 Input BOX에 문자열을 입력한후 Generate 버튼을 클릭
+- QR코드 생성 (Wrong URL이면 오류처리)
+- Again 누르면 처음 페이지로 돌아감
+
 ### 설치하기
 
 - JDK 설치 - JAVA 개발환경 세팅을 위한 JDK 설치
