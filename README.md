@@ -15,3 +15,6 @@
 - [JSP](<https://www.oracle.com/technetwork/java/index-jsp-138231.html>) - HTML 내에 자바 코드를 삽입하여 웹 서버에서 동적으로 웹 페이지를 생성하여 웹 브라우저에 돌려주는 언어
 - [Tomcat](<http://tomcat.apache.org/>) - 서블릿 컨테이너, 웹컨테이너만 있는 웹 애플리케이션 서버
 - [intelliJ](<https://www.jetbrains.com/idea/>) - 자바 통합 개발 환경
+
+## 개발자
+- [이정재](https://github.com/jungjai)
